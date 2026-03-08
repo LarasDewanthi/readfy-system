@@ -1,0 +1,264 @@
+/* ================= CONTAINER UTAMA =================
+   Mengatur padding dan font default halaman
+*/
+.container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= HEADER / JUDUL ================= */
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* ================= BUTTON UMUM =================
+   Style dasar untuk semua tombol
+*/
+.btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 5px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+/* tombol kembali */
+.btn.back { background: #6c757d; }
+.btn.back:hover { background: #5a6268; }
+
+/* tombol tambah data */
+.btn.add { background: #28a745; }
+.btn.add:hover { background: #218838; }
+
+/* tombol edit */
+.btn.edit { background: #ffc107; color: #000; }
+.btn.edit:hover { background: #e0a800; }
+
+/* tombol hapus */
+.btn.delete { background: #dc3545; }
+.btn.delete:hover { background: #b02a37; }
+
+/* ================= TABEL DATA =================
+   Digunakan untuk tabel buku, anggota, dll
+*/
+.table-books {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ================= HEADER TABEL ================= */
+.table-books thead {
+    background: #007bff;
+    color: #fff;
+    text-align: center; /* teks header berada di tengah */
+}
+
+/* garis pada setiap sel tabel */
+.table-books th, .table-books td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* efek hover hanya pada isi tabel */
+.table-books tbody tr:hover {
+    background: #d6eaff;
+}
+
+/* zebra striping (warna selang-seling baris) */
+.table-books tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* teks isi tabel berada di tengah */
+.table-books tbody td {
+    text-align: center;
+}
+
+/* ================= ICON AKSI (EDIT / DELETE) ================= */
+.action-icons .icon-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 4px;
+    transition: all 0.2s;
+}
+
+/* efek hover icon */
+.action-icons .icon-box:hover {
+    background-color: #cce5ff;
+    transform: scale(1.2);
+}
+
+/* ================= FORM TAMBAH / EDIT BUKU ================= */
+.form-book {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 12px;
+}
+
+/* input pada form buku */
+.form-book input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* tombol pada form buku */
+.form-book button {
+    width: 150px;
+    align-self: flex-start;
+}
+
+/* ================= HALAMAN LOGIN ================= */
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* judul login */
+.login-container h1 {
+    color: #303233;
+    margin-bottom: 20px;
+}
+
+/* form login */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* input email & password */
+.login-form input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* tombol login */
+.login-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+/* efek hover tombol login */
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* pesan error login */
+.error-msg {
+    color: #dc3545;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+/* ================= FORM MEMBER ================= */
+.form-member input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-member button {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+/* ================= FORM CRUD UMUM ================= */
+.form-crud {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+}
+
+/* label form */
+.form-crud label {
+    font-weight: bold;
+}
+
+/* input dan select */
+.form-crud input,
+.form-crud select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* tombol form */
+.form-crud button {
+    width: fit-content;
+}
+
+/* ================= ICON EDIT ================= */
+.icon-box.edit{
+background:#ffc107;
+color:#000;
+}
+
+.icon-box.edit:hover{
+background:#e0a800;
+}
+
+/* ================= ICON DELETE ================= */
+.icon-box.delete{
+background:#dc3545;
+color:#fff;
+}
+
+.icon-box.delete:hover{
+background:#b02a37;
+}
+
+/* ================= HEADER TABEL + AKSI ================= */
+.table-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:15px;
+}
+
+/* container tombol tabel */
+.table-actions{
+display:flex;
+gap:10px;
+}
+
+/* tombol export */
+.btn.export{
+background:#dc3545;
+color:white;
+}
