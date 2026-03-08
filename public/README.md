@@ -18,6 +18,7 @@ untuk menampilkan ikon pada tampilan antarmuka agar lebih menarik dan mudah dipa
 
 3. Fitur Utama Sistem
 Sistem ini memiliki beberapa fitur utama, yaitu:
+
     a. Login System
     Fitur login digunakan untuk membatasi akses ke dalam sistem sehingga hanya admin yang memiliki 
     akun yang dapat mengelola data perpustakaan.
@@ -71,7 +72,7 @@ Sistem ini memiliki beberapa fitur utama, yaitu:
     - Tanggal peminjaman
     - Tanggal pengembalian
 
-4. Alur Sistem (System Flow)
+5. Alur Sistem (System Flow)
 Berikut adalah alur kerja sistem secara umum:
 - Admin membuka halaman login sistem.
 - Admin memasukkan username dan password.
