@@ -18,11 +18,11 @@ untuk menampilkan ikon pada tampilan antarmuka agar lebih menarik dan mudah dipa
 
 3. Fitur Utama Sistem
 Sistem ini memiliki beberapa fitur utama, yaitu:
-    1. Login System
+    a. Login System
     Fitur login digunakan untuk membatasi akses ke dalam sistem sehingga hanya admin yang memiliki 
     akun yang dapat mengelola data perpustakaan.
 
-    2. Dashboard
+    b. Dashboard
     Dashboard merupakan halaman utama setelah pengguna berhasil login ke dalam sistem.
     Informasi yang ditampilkan pada dashboard antara lain:
     - Kelola data buku
@@ -30,7 +30,7 @@ Sistem ini memiliki beberapa fitur utama, yaitu:
     - Kelola data peminjaman
     - Recent loans (data peminjaman terbaru)
 
-    3. Manajemen Data Buku
+    c. Manajemen Data Buku
     Fitur ini digunakan untuk mengelola seluruh data buku yang tersedia dalam perpustakaan.
     Operasi yang tersedia pada fitur ini meliputi:
     - Menambahkan data buku
@@ -44,7 +44,7 @@ Sistem ini memiliki beberapa fitur utama, yaitu:
     - Pengarang
     - Stok buku
 
-    4. Manajemen Data Member
+    d. Manajemen Data Member
     Fitur yang tersedia:
     - Menambahkan data anggota
     - Mengedit data anggota
@@ -56,7 +56,7 @@ Sistem ini memiliki beberapa fitur utama, yaitu:
     - Email
     - Nomor telepon
 
-    5. Manajemen Peminjaman Buku (Loans)
+    e. Manajemen Peminjaman Buku (Loans)
     Fitur ini digunakan untuk mencatat transaksi peminjaman buku oleh anggota.
     Fitur yang tersedia:
     - Menambahkan data peminjaman
@@ -73,10 +73,10 @@ Sistem ini memiliki beberapa fitur utama, yaitu:
 
 4. Alur Sistem (System Flow)
 Berikut adalah alur kerja sistem secara umum:
-1. Admin membuka halaman login sistem.
-2. Admin memasukkan username dan password.
-3. Sistem melakukan verifikasi data login.
-4. Jika login berhasil, admin akan diarahkan ke halaman dashboard.
-5. Dari dashboard admin dapat mengakses menu: Books, Members, Loans
-6. Admin dapat melakukan operasi CRUD (Create, Read, Update, Delete) pada masing-masing data.
-7. Setiap perubahan data akan disimpan ke dalam database MySQL.
+- Admin membuka halaman login sistem.
+- Admin memasukkan username dan password.
+- Sistem melakukan verifikasi data login.
+- Jika login berhasil, admin akan diarahkan ke halaman dashboard.
+- Dari dashboard admin dapat mengakses menu: Books, Members, Loans
+- Admin dapat melakukan operasi CRUD (Create, Read, Update, Delete) pada masing-masing data.
+- Setiap perubahan data akan disimpan ke dalam database MySQL.
